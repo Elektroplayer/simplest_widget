@@ -1,2 +1,10 @@
 # simplest_widget
-Sipmlest python gtk-layer-shell widget for sway
+Simplest python gtk-layer-shell widget for sway.
+
+How it looks
+![Example](example.png)
+
+## Starting
+
+- With npm install PyGObject, pycairo
+- Start with `python main.py`
