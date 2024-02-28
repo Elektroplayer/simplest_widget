@@ -34,7 +34,8 @@ fn activate(application: &gtk::Application) {
     // Настраиваем css провайдера
     let provider = gtk::CssProvider::new();
 
-    provider.load_from_path("./style.css").unwrap();
+    let home = std::env::var("HOME").unwrap();
+    provider.load_from_path(&format!("{}/.config/sgw/style.css", home)).unwrap();
 
     let screen = gtk::gdk::Screen::default().unwrap();
 
