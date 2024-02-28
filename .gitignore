@@ -1,2 +1,3 @@
-/venv/
-/.vscode/
+/target
+/.vscode
+Cargo.lock

@@ -1,0 +1,14 @@
+[package]
+name = "gtk-widget"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gdk = "0.18.0"
+gio = "0.19.2"
+glib = "0.19.2"
+gtk = "0.18.1"
+gtk-layer-shell = "0.8.0"
+sysinfo = "0.30.5"
